@@ -1,0 +1,97 @@
+/* GENERAL RESET */
+* { box-sizing: border-box; margin:0; padding:0; }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+/* FORMS */
+input, textarea, button {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* BUTTONS */
+button {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* CARDS */
+.note-editor, .youtube-form, .note {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.note-editor:hover, .youtube-form:hover, .note:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* NOTE CARD */
+.note h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.note p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.summary {
+    background-color: #e0f2fe;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-top: 0.8rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+}
