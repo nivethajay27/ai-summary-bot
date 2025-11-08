@@ -28,7 +28,7 @@ It allows users to upload text files, summarize text or YouTube videos, and save
 ![Home Screen](./screenshots/home.png)
 
 ### 📂 Summarize
-![Upload Summary](./screenshots/summary.png)
+![Upload Summary](./screenshots/saved1.png)
 
 ### 💾 Saved Summaries
 ![Saved Summaries](./screenshots/saved_summary.png)
